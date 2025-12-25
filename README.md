@@ -37,7 +37,7 @@ The board supports **three power input sources**:
 
 - **5V via USB**
 - **3.7V Li-ion battery**
-- **External 5V input**, suitable for powering from a robot or vehicle
+- **External 5V input**
 
 Power protection features include:
 
@@ -46,6 +46,7 @@ Power protection features include:
 
 ### Power Management
 
+- Battery charging and discharging management is implemented using the **IP5306**.
 - Two **load switch ICs** are used to implement both **hardware and software power control**
 - Power to the **ASRPRO** and **4G module** can be completely shut down when not in use, reducing power consumption
 
