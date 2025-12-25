@@ -3,6 +3,19 @@
 
 ## remote-controller
 
+<p align="center">
+    <img src="02.docs/overview.png" alt="f" width="30%"/>
+</p>
+
+
+<p align="center">
+    <img src="02.docs/r.png" alt="f" width="30%"/>
+</p>
+
+<p align="center">
+    <img src="02.docs/f.png" alt="f" width="30%"/>
+</p>
+
 
 This is a **dual-MCU remote controller PCB** designed for wireless control and voice interaction.
 
@@ -49,17 +62,3 @@ Power protection features include:
 - The 4G module is paired with an **eSIM chip**
 - Enables **true always-on cellular connectivity** without the need for a physical SIM card
 
-
-
-<p align="center">
-    <img src="02.docs/overview.png" alt="f" width="60%"/>
-</p>
-
-
-<p align="center">
-    <img src="02.docs/r.png" alt="f" width="60%"/>
-</p>
-
-<p align="center">
-    <img src="02.docs/f.png" alt="f" width="60%"/>
-</p>
