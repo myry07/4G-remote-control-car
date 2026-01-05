@@ -4,7 +4,7 @@
 ## remote-controller
 
 <p align="center">
-    <img src="02.docs/overview.png" alt="f" width="60%"/>
+    <img src="02.docs/overview.png" alt="f" width="80%"/>
 </p>
 
 
