@@ -27,8 +27,8 @@ This is a **dual-MCU remote controller PCB** designed for wireless control and v
 
 ### Audio Architecture
 
-- Both MCUs **share a single microphone**
-- Microphone selection is handled by a **TS5A22363 analog switch**
+- Both MCUs **share a single speaker**
+- Speaker selection is handled by a **TS5A22363 analog switch**
 - Ensures **no contention** between the two MCUs during operation
 
 ### Power Supply Design
@@ -41,8 +41,8 @@ The board supports **three power input sources**:
 
 Power protection features include:
 
-- **Reverse current protection**
-- **Reverse polarity protection**
+- **Reverse current protection Diode**
+- **Reverse polarity protection with PMOS**
 
 ### Power Management
 
