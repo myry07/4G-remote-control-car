@@ -41,7 +41,7 @@ The board supports **three power input sources**:
 
 Power protection features include:
 
-- **Reverse current protection Diode**
+- **Reverse current protection with Diode**
 - **Reverse polarity protection with PMOS**
 
 ### Power Management
