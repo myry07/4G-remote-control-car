@@ -54,12 +54,10 @@ Power protection features include:
 - Enables **true always-on cellular connectivity** without the need for a physical SIM card
 
 <p align="center">
-    <img src="03.fotos/r.png" alt="f" width="30%"/>
+  <img src="03.fotos/r.png" alt="r" width="30%" />
+  <img src="03.fotos/f.png" alt="f" width="30%" />
 </p>
 
-<p align="center">
-    <img src="03.fotos/f.png" alt="f" width="30%"/>
-</p>
 
 
 
