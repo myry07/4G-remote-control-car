@@ -7,8 +7,6 @@
     <img src="03.fotos/overview.png" alt="f" width="80%"/>
 </p>
 
-
-
 This is a **dual-MCU remote controller PCB** designed for wireless control and voice interaction.
 
 ### MCU Architecture
@@ -67,6 +65,6 @@ Power protection features include:
 
 ## car
 <p align="center">
-    <img src="03.fotos/car_overview.png" alt="f" width="30%"/>
+    <img src="03.fotos/car_overview.png" alt="f" width="80%"/>
 </p>
 
