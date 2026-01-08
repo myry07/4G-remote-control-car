@@ -4,7 +4,7 @@
 ## remote-controller
 
 <p align="center">
-    <img src="02.docs/overview.png" alt="f" width="80%"/>
+    <img src="03.fotos/overview.png" alt="f" width="80%"/>
 </p>
 
 
@@ -56,9 +56,9 @@ Power protection features include:
 - Enables **true always-on cellular connectivity** without the need for a physical SIM card
 
 <p align="center">
-    <img src="02.docs/r.png" alt="f" width="30%"/>
+    <img src="03.fotos/r.png" alt="f" width="30%"/>
 </p>
 
 <p align="center">
-    <img src="02.docs/f.png" alt="f" width="30%"/>
+    <img src="03.fotos/f.png" alt="f" width="30%"/>
 </p>
