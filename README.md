@@ -77,8 +77,8 @@ Power protection features include:
 
 
 <p align="center">
-  <img src="03.fotos/car_f.png" alt="r" width="50%" />
-  <img src="03.fotos/car_r.png" alt="f" width="50%" />
+  <img src="03.fotos/car_f.png" alt="r" width="70%" />
+  <img src="03.fotos/car_r.png" alt="f" width="70%" />
 </p>
 
 
