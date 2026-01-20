@@ -1,7 +1,7 @@
 # 4G-remote-control-car
 
 
-## remote-controller
+## Remote-Controller
 
 <p align="center">
     <img src="03.fotos/overview.png" alt="f" width="80%"/>
@@ -15,7 +15,6 @@ This is a **dual-MCU remote controller PCB** designed for wireless control and v
   Responsible for controlling peripherals, including:
   - 4G cellular module  
   - Rotary encoder  
-  - TF (microSD) card  
   - SSD1306 OLED display  
   - Microphone  
   - Speaker  
@@ -61,8 +60,25 @@ Power protection features include:
 
 
 
-## car
+## Car
 <p align="center">
     <img src="03.fotos/car_overview.png" alt="f" width="80%"/>
 </p>
+
+
+
+### MCU Architecture
+
+- **ESP8266**  
+  Responsible for controlling peripherals, including:
+  - H-Bridge  
+  - 6-Axis-IMU  
+  - WS2812  
+
+
+<p align="center">
+  <img src="03.fotos/car_f.png" alt="r" width="30%" />
+  <img src="03.fotos/car_r.png" alt="f" width="30%" />
+</p>
+
 
