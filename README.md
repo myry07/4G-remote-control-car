@@ -1,6 +1,6 @@
 # 4G-remote-control-car
 
-Language: English | 简体中文
+Language: [English](README.md) | [简体中文](README.zh-CN.md)
 
 ## Remote-Controller
 
