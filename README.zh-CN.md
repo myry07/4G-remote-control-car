@@ -1,6 +1,5 @@
 # 4G-remote-control-car
 
-
 语言: [English](README.md) | [简体中文](README.zh-CN.md)
 
 这是为一家中国的玩具公司 设计的4G遥控车
@@ -49,7 +48,6 @@
 
 
 
-
 ## 小车
 <p align="center">
     <img src="03.fotos/car_overview.png" alt="f" width="80%"/>
@@ -74,5 +72,3 @@
   <img src="03.fotos/car_f.png" alt="r" width="70%" />
   <img src="03.fotos/car_r.png" alt="f" width="70%" />
 </p>
-
-
