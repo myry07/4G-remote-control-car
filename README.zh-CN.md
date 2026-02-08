@@ -1,59 +1,44 @@
 # 4G-remote-control-car
 
 
-语言: English | 简体中文
+语言: [English](README.md) | [简体中文](README.zh-CN.md)
 
 
-## Remote-Controller
+
+## 遥控器
 
 <p align="center">
     <img src="03.fotos/overview.png" alt="f" width="80%"/>
 </p>
 
-This is a **dual-MCU remote controller PCB** designed for wireless control and voice interaction.
+该遥控器采用**双MCU 架构** 支持无线控制和语音交互
 
-### MCU Architecture
+### MCU 架构
 
-- **ESP32-S3 (Main MCU)**  
-  Responsible for controlling peripherals, including:
-  - 4G cellular module  
-  - Rotary encoder  
-  - SSD1306 OLED display  
-  - Microphone  
-  - Speaker  
+两个MCU之间 使用UART通信
 
-- **ASRPRO (Tianwen MCU)**  
-  A dedicated MCU with excellent **speech recognition capabilities**, used specifically for voice processing.
+- **ESP32-S3**  
+  负责控制外设 包括:
+  - 4G模组: ML307A-GCLN
+  - 旋转编码器  
+  - 0.96寸屏幕: SSD1306
+  - 麦克风: ZTS6672S
+  - 喇叭: MAX98357
 
-### Audio Architecture
+- **天问 ASRPRO**  
+  具有出色的**语音识别能力** 专用于语音处理
 
-- Both MCUs **share a single speaker**
-- Speaker selection is handled by a **TS5A22363 analog switch**
-- Ensures **no contention** between the two MCUs during operation
+### 供电方案
 
-### Power Supply Design
+该遥控器支持 **三种电源输入**:
 
-The board supports **three power input sources**:
+- **USB 5V**
+- **锂电池**
+- **小车 5V**
 
-- **5V via USB**
-- **3.7V Li-ion battery**
-- **External 5V input**
+对于三种输入都做了不同的输入保护 比如防倒灌 防反接  
+另外使用 IP5306 实现电源管理
 
-Power protection features include:
-
-- **Reverse current protection with Diode**
-- **Reverse polarity protection with PMOS**
-
-### Power Management
-
-- Battery charging and discharging management is implemented using the **IP5306**.
-- Two **load switch ICs** are used to implement both **hardware and software power control**
-- Power to the **ASRPRO** and **4G module** can be completely shut down when not in use, reducing power consumption
-
-### Cellular Connectivity
-
-- The 4G module is paired with an **eSIM chip**
-- Enables **true always-on cellular connectivity** without the need for a physical SIM card
 
 <p align="center">
   <img src="03.fotos/r.png" alt="r" width="50%" />
