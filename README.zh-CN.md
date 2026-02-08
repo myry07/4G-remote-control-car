@@ -1,6 +1,9 @@
 # 4G-remote-control-car
 
 
+语言: English | 简体中文
+
+
 ## Remote-Controller
 
 <p align="center">
