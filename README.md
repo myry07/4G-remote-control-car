@@ -1,6 +1,15 @@
+
+
+
+
 # 4G-remote-control-car
 
 Language: [English](README.md) | [简体中文](README.zh-CN.md)
+
+
+Hardware design of a 4G remote-controlled car for a Chinese company: [海智星](https://www.hzxaitoy.com)
+
+
 
 ## Remote-Controller
 
